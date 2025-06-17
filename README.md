@@ -102,26 +102,17 @@
    - `Management events`: leitura e escrita
 4. Finalize.
 
-📸 *Adicione aqui print da trilha criada e estrutura do bucket S3*
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-01.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-02.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-07.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-10.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-34.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-35.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_15-36.png)
 
 ---
 
-### 📦 Passo 4 – Visualizar Logs
-
-#### Logs via S3:
-1. Acesse o **console S3**.
-2. Navegue até o bucket do CloudTrail.
-3. Explore as pastas e visualize os arquivos `.gz`.
-
-#### (Opcional) Enviar logs para CloudWatch Logs:
-- Habilite essa opção em `Trails > Edit`.
-- Crie um novo **Log Group** e **IAM Role**.
-
-📸 *Adicione aqui print dos logs visualizados no S3 e CloudWatch Logs (opcional)*
-
----
-
-### 🔥 Passo 5 – Estressar a Instância
+### 📦 Passo 4 – Estressar a Instância
 
 1. Conecte via SSH:  
    ```bash
@@ -132,4 +123,23 @@ sudo yum update -y
 sudo amazon-linux-extras install epel -y
 sudo yum install stress -y
 stress --cpu 8 --timeout 600
+
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-16.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-17.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-18.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-19.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-20.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-21.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-23.png)
+
+### 🧪 Passo 6 – Verificar o Alarme
+Volte ao CloudWatch.
+
+Veja o estado do alarme (In alarm).
+
+Confirme o e-mail do SNS com alerta de CPU alta.
+
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-27.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-43.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-42.png)
 
