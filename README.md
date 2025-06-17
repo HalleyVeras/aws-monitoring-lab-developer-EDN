@@ -147,6 +147,8 @@ Confirme o e-mail do SNS com alerta de CPU alta.
 Você configurou com sucesso um ambiente completo de monitoramento e auditoria na AWS. Agora você domina:
 
 ✅ EC2, CloudWatch, SNS, S3 e CloudTrail
+
 ✅ Segurança, auditoria e notificações em tempo real
+
 ✅ Práticas essenciais de observabilidade e governança
 
