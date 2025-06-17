@@ -132,7 +132,7 @@ stress --cpu 8 --timeout 600
 ![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-21.png)
 ![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-23.png)
 
-### 🧪 Passo 6 – Verificar o Alarme
+### 🧪 Passo 5 – Verificar o Alarme
 Volte ao CloudWatch.
 
 Veja o estado do alarme (In alarm).
@@ -142,4 +142,11 @@ Confirme o e-mail do SNS com alerta de CPU alta.
 ![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-27.png)
 ![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-43.png)
 ![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-42.png)
+
+### 🏁 Conclusão
+Você configurou com sucesso um ambiente completo de monitoramento e auditoria na AWS. Agora você domina:
+
+✅ EC2, CloudWatch, SNS, S3 e CloudTrail
+✅ Segurança, auditoria e notificações em tempo real
+✅ Práticas essenciais de observabilidade e governança
 
