@@ -74,7 +74,20 @@
    - Configure ação para enviar e-mail via **SNS topic** (crie um novo: `SNS-SeuNome`)
 5. **Confirme a assinatura no seu e-mail.**
 
-📸 *Adicione aqui um print do alarme configurado e do e-mail de confirmação*
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-09.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-10.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-10_1.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-11.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-14.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-15.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-18.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-18_1.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-22.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-23.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-25.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-25_1.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-26.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_16-37.png)
 
 ---
 
