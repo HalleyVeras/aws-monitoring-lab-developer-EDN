@@ -1,5 +1,7 @@
 # 🚀 Laboratório: Monitoramento e Auditoria com CloudWatch e CloudTrail na AWS
 
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/monitoringDev.jpg)
+
 **Autor:** Halley Veras  
 **Curso: Developer – Escola da Nuvem** 
 **Objetivo:** Criar um ambiente de monitoramento e auditoria usando Amazon CloudWatch, CloudTrail, SNS e S3 na AWS.
@@ -45,7 +47,15 @@
    - **Security Group:** `SG-Teste-CloudWatch-SeuNome` com porta SSH aberta para seu IP
 3. Anote o **Instance ID**.
 
-📸 *Adicione aqui um print da instância criada*
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_13-53.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_13-55.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_13-56.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_13-59.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-00.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-04.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-04_1.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-05.png)
+![1](https://raw.githubusercontent.com/HalleyVeras/aws-monitoring-lab-developer-EDN/refs/heads/main/arquivos/2025-06-17_14-08.png)
 
 ---
 
@@ -103,3 +113,10 @@
 1. Conecte via SSH:  
    ```bash
    ssh -i "seu-par.pem" ec2-user@<IP>
+
+2. Execute:
+sudo yum update -y
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
+stress --cpu 8 --timeout 600
+
